@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test1.js */ \"./src/test1.js\");\n/* harmony import */ var _index2_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index2.js */ \"./src/index2.js\");\n\r\n\r\nalert('it realy works');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test1.js */ \"./src/test1.js\");\n/* harmony import */ var _index2_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index2.js */ \"./src/index2.js\");\n// import path from 'path';\r\n\r\n\r\nalert('it realy works');\r\n// let test = path.resolve('src');\r\n// console.log(test);\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
