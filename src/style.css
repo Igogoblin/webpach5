@@ -1,0 +1,102 @@
+/* @import '~normalize.css'; */
+@import '~modern-css-reset';
+body {
+  background-color: burlywood;
+}
+/* npm install css-loader --save-dev                  loadet to css */
+/* npm install style-loader --save-dev                for css add to html */
+/* npm install mini-css-extract-plugin --save-dev       plagin for all file css in one */
+/* npm install normalize.css    */
+/* npm install --save-dev modern-css-reset */
+/*  npm install modern-css-reset */
+/* 
+npm install less-loader --save-dev
+Пусть теперь к точке входа импортируются несколько файлов LESS:
+
+import './styles1.less';
+import './styles2.less';
+Давайте настроим Webpack так, чтобы LESS код преобразовывался в CSS:
+
+export default {
+	entry: './src/index.js',
+	rules: [
+		{
+			test: /\.less$/i,
+			use: [
+				'style-loader',
+				'css-loader',
+				'less-loader',
+			],
+		},
+	],
+};
+*/
+
+
+/* 
+А теперь настроим Webpack так, чтобы преобразованный CSS собирался в один общий бандл:
+
+export default {
+	entry: './src/index.js',
+	plugins: [new MiniCssExtractPlugin()],
+	module: {
+		rules: [
+			{
+				test: /\.less$/i,
+				use: [
+					MiniCssExtractPlugin.loader,
+					'css-loader',
+					'less-loader',
+				],
+			},
+		],
+	},
+	
+};
+*/
+
+
+/* 
+npm install sass --save-dev
+Затем соответствующий лоадер:
+
+npm install sass-loader --save-dev
+Пусть теперь к точке входа импортируются несколько файлов SASS:
+
+import './styles1.sass';
+import './styles2.sass';
+Давайте настроим Webpack так, чтобы SASS код преобразовывался в CSS:
+
+export default {
+	entry: './src/index.js',
+	rules: [
+		{
+			test: /\.sass/i,
+			use: [
+				'style-loader',
+				'css-loader',
+				'sass-loader',
+			],
+		},
+	],
+};
+А теперь настроим Webpack так, чтобы преобразованный CSS собирался в один общий бандл:
+
+export default {
+	entry: './src/index.js',
+	plugins: [new MiniCssExtractPlugin()],
+	module: {
+		rules: [
+			{
+				test: /\.sass/i,
+				use: [
+					MiniCssExtractPlugin.loader,
+					'css-loader',
+					'sass-loader',
+				],
+			},
+		],
+	},
+	
+};
+*/
