@@ -1,1 +1,0 @@
-(()=>{"use strict";alert("it works test file"),alert("it realy works"),alert("this is index1"),alert("text for test1")})();

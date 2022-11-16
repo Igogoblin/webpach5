@@ -100,3 +100,7 @@ export default {
 	
 };
 */
+
+/* Для работы с HTML макетами используется html-webpack-plugin. Давайте его установим:
+
+npm install html-webpack-plugin --save-dev */
