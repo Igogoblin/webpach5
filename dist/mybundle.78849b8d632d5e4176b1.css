@@ -111,6 +111,10 @@ export default {
 /* Для работы с HTML макетами используется html-webpack-plugin. Давайте его установим:
 
 npm install html-webpack-plugin --save-dev */
+
+body {
+	background: url(87db11707ca0cf298b10.jpg);
+}
 /*!***************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!./style1.css ***!
   \***************************************************************/

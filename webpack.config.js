@@ -27,6 +27,14 @@ export default {
       test: /\.css$/i,
       use: [MiniCssExtractPlugin.loader, 'css-loader'],
     },
+    {
+      test: /\.png$/i,
+      type: 'asset/resource'
+    },
+     {
+      test: /\.jpg$/i,
+      type: 'asset/resource'
+    },
   ],
   },
   
