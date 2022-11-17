@@ -12,7 +12,7 @@ export default {
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve('dist'),
-    assetModuleFilename: 'assets/[name].[hash][ext]',
+    // assetModuleFilename: 'assets/[name].[hash][ext]',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -29,13 +29,26 @@ export default {
       use: [MiniCssExtractPlugin.loader, 'css-loader'],
     },
     {
-      test: /\.png$/i,
-      type: 'asset/resource'
+      test: /\.png$/,
+      type: 'asset/resource',
+      generator: {
+        filename: 'images/[name].[hash][ext]'
+      }
     },
      {
-      test: /\.jpg$/i,
-      type: 'asset/resource'
+      test: /\.jpg$/,
+      type: 'asset/resource',
+      generator: {
+        filename: 'images/[name].[hash][ext]'
+      }
     },
+    {
+      test: /\.zip$/,
+      type: 'asset/resource',
+      generator: {
+        filename: 'download/[name].[hash][ext]'
+      }
+    }
   ],
   },
   

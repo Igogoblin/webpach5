@@ -30,13 +30,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "../d/itlogia.zip":
+/*!************************!*\
+  !*** ../d/itlogia.zip ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"download/itlogia.a33dd2de42c2bf3c2381.zip\";\n\n//# sourceURL=webpack:///../d/itlogia.zip?");
+
+/***/ }),
+
 /***/ "../images/rolls.jpg":
 /*!***************************!*\
   !*** ../images/rolls.jpg ***!
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/rolls.87db11707ca0cf298b10.jpg\";\n\n//# sourceURL=webpack:///../images/rolls.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/rolls.87db11707ca0cf298b10.jpg\";\n\n//# sourceURL=webpack:///../images/rolls.jpg?");
 
 /***/ }),
 
@@ -46,7 +56,7 @@ eval("module.exports = __webpack_require__.p + \"assets/rolls.87db11707ca0cf298b
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/Результат.b84a2fb54aba4393d92e.png\";\n\n//# sourceURL=webpack:///../images/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82.png?");
+eval("module.exports = __webpack_require__.p + \"images/Результат.b84a2fb54aba4393d92e.png\";\n\n//# sourceURL=webpack:///../images/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82.png?");
 
 /***/ }),
 
@@ -56,7 +66,7 @@ eval("module.exports = __webpack_require__.p + \"assets/Результат.b84a2
   \******************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test.js */ \"./test.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./style.css\");\n/* harmony import */ var _images_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/Результат.png */ \"../images/Результат.png\");\n/* harmony import */ var _images_rolls_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/rolls.jpg */ \"../images/rolls.jpg\");\n// import path from 'path';\r\n\r\n\r\n\r\n\r\n\r\nalert('it realy works');\r\n// let test = path.resolve('src');\r\n// console.log(test);\r\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test.js */ \"./test.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./style.css\");\n/* harmony import */ var _images_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/Результат.png */ \"../images/Результат.png\");\n/* harmony import */ var _images_rolls_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/rolls.jpg */ \"../images/rolls.jpg\");\n/* harmony import */ var _d_itlogia_zip__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../d/itlogia.zip */ \"../d/itlogia.zip\");\n// import path from 'path';\r\n\r\n\r\n\r\n\r\n\r\n\r\nalert('it realy works');\r\n// let test = path.resolve('src');\r\n// console.log(test);\r\n\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
