@@ -7,11 +7,12 @@ export default {
   entry: {
     mybundle:['./index.js',
    './index1.js','./test1.js'],
-    test2:['./test1.js']
+    // test2:['./test1.js']
   },
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve('dist'),
+    assetModuleFilename: 'assets/[name].[hash][ext]',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -48,3 +49,4 @@ export default {
 // plugins: [new MiniCssExtractPlugin()], for bundel all css
 // npm install html-webpack-plugin --save-dev
 // подключаем свой html 
+// все ассеты(изображения) попадали в один файл assetModuleFilename: 'assets/[name].[hash][ext]',

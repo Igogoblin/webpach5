@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"87db11707ca0cf298b10.jpg\";\n\n//# sourceURL=webpack:///../images/rolls.jpg?");
+eval("module.exports = __webpack_require__.p + \"assets/rolls.87db11707ca0cf298b10.jpg\";\n\n//# sourceURL=webpack:///../images/rolls.jpg?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("module.exports = __webpack_require__.p + \"87db11707ca0cf298b10.jpg\";\n\n
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"b84a2fb54aba4393d92e.png\";\n\n//# sourceURL=webpack:///../images/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82.png?");
+eval("module.exports = __webpack_require__.p + \"assets/Результат.b84a2fb54aba4393d92e.png\";\n\n//# sourceURL=webpack:///../images/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82.png?");
 
 /***/ }),
 
