@@ -37,10 +37,11 @@ export default {
     },
      {
       test: /\.jpg$/,
-      type: 'asset/resource',
-      generator: {
-        filename: 'images/[name].[hash][ext]'
-      }
+      type: 'asset/inline',
+      // type: 'asset/resource',
+      // generator: {
+      //   filename: 'images/[name].[hash][ext]'
+      // }
     },
     {
       test: /\.zip$/,
