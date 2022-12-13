@@ -1,6 +1,8 @@
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import { CleanWebpackPlugin } from 'clean-webpack-plugin';
+import CopyPlugin from 'copy-webpack-plugin';
 export default {
   mode: 'development',
   context: path.resolve('src'),
@@ -20,8 +22,17 @@ export default {
     }),
     new MiniCssExtractPlugin({
     filename: '[name].[contenthash].css'
-  })],
-  
+  }),
+      new CleanWebpackPlugin(),
+      // new CopyPlugin({
+      //   patterns: [
+      //     {
+      //      from:path.resolve('src/favicon.ico'),
+      //     to: path.resolve('dist') 
+      //     },
+      //   ]
+      // }),
+  ],
   module: {
     rules: [
     {
